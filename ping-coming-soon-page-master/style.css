@@ -103,6 +103,22 @@ form{
 
 /* END fORM */
 
+/* ICONES */
+
+.social-media{
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-brands{
+    color: var(--Blue);
+}
+
+/* END ICONS */
+
 /* IMAGEN GENERAL */
 .img{
     width: 500px;
