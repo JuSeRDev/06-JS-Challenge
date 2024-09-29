@@ -22,11 +22,10 @@ La **Ping Coming Soon Page** es una página de suscripción que notifica a los u
 
 ## Vista del proyecto
 
-<div style="display: flex; justify-content: center; align-items: center; text-align: center; margin: 0 auto;">
-  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/tvzmm442kkjocmihbpiq.jpg" alt="Desktop Design" style="height: 400px; width: auto; margin-right: 20px;">
-  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/rc3vtukef9kk37msrvxi.jpg" alt="Mobile Design" style="height: 400px; width: auto;">
+<div style="display: flex; justify-content: center;">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/tvzmm442kkjocmihbpiq.jpg" alt="Desktop Preview" style="margin-right: 10px; height: 200px; width: auto;">
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1554895678/Challenges/rc3vtukef9kk37msrvxi.jpg" alt="Mobile Preview" style="height: 200px; width: auto; object-fit: cover;">
 </div>
-
 
 ## Estructura del proyecto
 
