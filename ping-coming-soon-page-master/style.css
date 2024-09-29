@@ -77,10 +77,11 @@ form{
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 60px;
+    position: relative;
 }
 
 .input-text{
-    width: 280px;
+    width: 290px;
     padding: 15px;
     border-radius: 30px;
     border: 1px solid var(--Pale-Blue);
@@ -88,6 +89,16 @@ form{
 
 .input-text::placeholder{
     color: var(--Pale-Blue);
+}
+
+.error{
+    font-size: 10px;
+    position: absolute;
+    color: var(--Light-Red);
+    top: 40px;
+    font-style: italic;
+    left: 15px;
+    display: none;
 }
 
 .button{
@@ -99,6 +110,16 @@ form{
     font-family: var(--font);
     font-size: 12px;
     box-shadow: 1px 5px 10px var(--Pale-Blue);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: var(--Pale-Blue);
+}
+
+.button:active{
+    background-color: var(--Very-Dark-Blue);
 }
 
 /* END fORM */
@@ -111,10 +132,36 @@ form{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 100px;
 }
+
+.icon{
+    width: 25px;
+    height: 25px;
+    border: 1px solid var(--Blue);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.icon:hover{
+    background-color: var(--Blue);
+}
+
 
 .fa-brands{
     color: var(--Blue);
+    font-size: 10px;
+    padding: 0;
+    font-style: normal;
+    transition: color 0.3s ease;
+}
+
+.icon:hover .fa-brands{
+    color: white;
 }
 
 /* END ICONS */
@@ -129,5 +176,26 @@ form{
     height: auto;
 }
 
+/* END IMAGEN GENERAL */
+
+/* COPY */
+
+.copy{
+    color: var(--Gray);
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+/* END COPY */
+
+/* FOOTER */
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+/* END FOOTER */
